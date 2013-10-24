@@ -16,3 +16,6 @@ modules:
             user: ''
             password: ''
             dump: tests/_data/dump.sql
+        Phalcon1:
+            application: app/config/application.php
+            cleanup: false
