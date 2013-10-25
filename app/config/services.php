@@ -76,3 +76,9 @@ $di->set('session', function() {
 	$session->start();
 	return $session;
 });
+
+$di->set('crypt', function() {
+    $crypt = new \Phalcon\Crypt();
+    $crypt->setKey('FLK#F#apf3NKfw32');
+    return $crypt;
+});
